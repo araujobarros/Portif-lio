@@ -3,31 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <title>Meu portifólio</title>
-	<meta name="autor" content="Edson Araujo de Barros Junior" />
+    <meta name="autor" content="Edson Araujo de Barros Junior" />
+    <style>
+        body {
+            background-color: rgb(205, 231, 190);
+            text-align: center;
+        }
+        .title {
+            font-family: "Garamond", sans-serif;
+        }
+
+        #Ap {
+            line-height: 1.5em;
+            font-style: italic;
+        }
+        #city {
+          text-decoration: underline;  
+        }
+        #Hab {
+            text-align: justify;
+        }
+        ul {
+           text-align: justify; 
+        }
+        .big {
+            font-size: 1.3em;
+        }
+        .bigplus {
+            font-size: 1.6em;
+        }
+    </style>
 </head>
 <body>
-    <h1> Edson Araujo de Barros Junior </h1> 
+    <h1 class="title"> Edson Araujo de Barros Junior </h1> 
 	<hr>
-    <h2> Desenvolvedor WEB Jr. </h2>
-    <p>Índice:</p>
+    <h2 class="title"> Desenvolvedor WEB Jr. </h2>
+    
     <ol type="1">
 		<li><a href="#Ap">Apresentação;</a></li>
         <li><a href="#Ab">Habilidades.</a></li>
     </ol>
     <img id="foto" src="Edson_Helena_piscina.jpg" height="240" width="360" alt="Foto com minha filha linda segurando uma bola, dentro de uma piscina azul"/> <br />
 
-    <p id="Ap">Meu nome é <strong>Edson</strong>, brasileiro, da cidade de Nilópolis (Um município da baixada do Rio de Janeiro).<br>
-	<em>Iniciei meus estudos na trybe e estou bastante empolgado com o curso.</em> </p>
-    <p id="Ab">Abaixo seguem minhas habilidades, as que estão em <strong>negrito</strong> são as que mais me orgulham; </p>
+    <p id="Ap">Meu nome é <strong>Edson</strong>, brasileiro, da cidade de <a id="city">Nilópolis</a> (Um município da baixada do Rio de Janeiro).<br>
+	Iniciei meus estudos na trybe e estou bastante empolgado com o curso. </p>
+    <p id="Hab">Abaixo seguem minhas habilidades, as que estão em <strong>negrito</strong> são as que mais me orgulham: </p>
 
     <ul>
-        <li><strong>Possuo facilidade em orientar uma equipe e torná-la unida;</strong></li>
-        <li>Sou versátil, tenho habilidades pra fazer diversos tipos de coisas
+        <li><strong>Possuo facilidade em orientar uma equipe e torná-la <a class="big">unida</a>;</strong></li>
+        <li>Sou <a class="big">versátil</a>, tenho habilidades pra fazer diversos tipos de coisas
             que aparentemente não teriam correlação, como bordar, trabalhar em 
             laboratório químico, cantar e lutar Jiu-jitsu;</li>
         <li>Sou totalmente averso a qualquer tipo de violência;</li>
-        <li><strong>Deus me deu a capacidade junto com a minha amada esposa Raquel de cuidar de uma filha linda.<br>
-            cuja imagem pode ser apreciada na <a href="#foto">foto</a> a cima.</strong></li>
+        <li><strong>Deus me deu a capacidade junto com a minha amada esposa <a class="bigplus">Raquel</a> de cuidar de uma filha linda chamada <a class="bigplus">Helena</a>.<br>
+            cuja imagem pode ser apreciada na <a href="#foto">foto</a> acima.</strong></li>
     </ul>
     <p><em>Para saber mais sobre mim clique <a href="https://www.instagram.com/araujobarrosjr/" target="_blank">aqui</a></em>.</p>
    

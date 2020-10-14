@@ -1,0 +1,30 @@
+<style>
+        body {
+            background-color: rgb(205, 231, 190);
+            text-align: center;
+        }
+        .title {
+            font-family: "Garamond", sans-serif;
+        }
+
+        #Ap {
+            line-height: 1.5em;
+            font-style: italic;
+        }
+        #city {
+          text-decoration: underline;  
+        }
+        #Hab {
+            text-align: justify;
+        }
+        ul {
+           text-align: justify; 
+        }
+        .big {
+            font-size: 1.3em;
+        }
+        .bigplus {
+            font-size: 1.6em;
+        }
+    </style>
+

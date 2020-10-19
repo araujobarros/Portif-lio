@@ -1,0 +1,60 @@
+
+h1 {
+    border-bottom: 3px solid  rgb(226,129,71); 
+    background-image: url(Imagens/Edson_Helena_piscina.jpg);
+}
+body {
+    background-color: rgb(205, 231, 190);
+   }
+   
+.title {
+    font-family: 'EB Garamond', sans-serif;
+    text-align: center;
+    
+}
+
+#Ap {
+    line-height: 1.5em;
+    font-style: italic;
+    border: transparent
+    
+}
+#city {
+    text-decoration: underline;  
+}
+#Hab {
+    text-align: justify;
+    clear: both;
+}
+ul {
+    text-align: justify;
+   
+}
+.big {
+    font-size: 1.3em;
+}
+.bigplus {
+    font-size: 1.6em;
+}
+.marginpadding {
+    margin: 35px;
+    padding: 35px;
+    
+    
+}
+#foto {
+    width: 300px;
+    float: left;
+    background-color: rgb(86,29,37);
+    
+}
+ol {
+    float: right;
+    width: 300px;
+    margin: 35px;
+    border-left: 3px solid rgb(226,129,71);
+    padding-bottom: 370px ;
+    padding-top: 60px;
+    background-color: transparent;
+}
+
